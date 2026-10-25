@@ -14,5 +14,7 @@ jobs:
         run: ls
       - name: good bye
         run: echo "good bye"
+      - name: good bye
+        run: echo "good bye"
       - name: check if the index file contains h1
         run: grep "<h1>" index.html
